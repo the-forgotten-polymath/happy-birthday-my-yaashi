@@ -26,7 +26,7 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: `Happy 22nd Birthday, ${config.name} 🎉`,
+  title: `Happy 18th Birthday, ${config.name} 🎉`,
 };
 
 export const viewport: Viewport = {
