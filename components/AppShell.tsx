@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { track } from "@vercel/analytics/react";
 import Intro from "@/components/sections/Intro";
 
 /**
@@ -15,7 +16,22 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   const handleComplete = useCallback(() => {
     setReady(true);
     window.dispatchEvent(new CustomEvent("PLAY_AUDIO"));
+    track("site_entered");
   }, []);
+
+  // Track how long the user stays on the site
+  useEffect(() => {
+    if (!ready) return;
+    
+    let minutes = 0;
+    const interval = setInterval(() => {
+      minutes += 1;
+      // Send a custom event to Vercel Analytics every minute they stay!
+      track("time_spent", { minutes });
+    }, 60000); // 60,000 ms = 1 minute
+
+    return () => clearInterval(interval);
+  }, [ready]);
 
   return (
     <>
