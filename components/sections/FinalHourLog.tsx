@@ -10,7 +10,7 @@ export default function FinalHourLog() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   // We only want to show the final messages when they are available
-  if (!config.finalHourMessages || config.finalHourMessages.length === 0) return null;
+  if (!config.finalHourMessages) return null;
 
   return (
     <section className="relative z-10 py-24 sm:py-32 px-5 overflow-hidden">
