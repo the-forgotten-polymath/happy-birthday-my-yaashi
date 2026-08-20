@@ -7,6 +7,7 @@ import ScrollProgress from "@/components/ui/ScrollProgress";
 import CursorGlow from "@/components/ui/CursorGlow";
 import ParticleField from "@/components/ui/ParticleField";
 import MusicPlayerBar from "@/components/ui/MusicPlayerBar";
+import { Analytics } from "@vercel/analytics/react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -57,6 +58,7 @@ export default function RootLayout({
         <CursorGlow />
         <ScrollProgress />
         <SmoothScroll>{children}</SmoothScroll>
+        <Analytics />
       </body>
     </html>
   );
