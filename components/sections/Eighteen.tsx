@@ -88,7 +88,7 @@ export default function Eighteen() {
               </span>
             </motion.div>
             <h2 className="font-display mt-4 text-[clamp(1.4rem,4vw,2.6rem)] font-bold text-white/90">
-              things about you at eighteen
+              things about you at twenty-one
             </h2>
             <p className="font-hand mt-2 text-lg text-white/50 sm:text-xl">
               one for every year, because you deserve the count

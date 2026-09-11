@@ -5,16 +5,16 @@ import { motion, AnimatePresence } from "motion/react";
 import { burst } from "@/lib/celebrate";
 
 const NAMES = [
-  "Ursa Vrinda",
+  "Ursa Yaashi",
   "The Birthday Queen",
-  "Constellation 18",
+  "Constellation 21",
   "Stellaris Magna",
   "The Golden Year",
-  "Nova Vrinda",
+  "Nova Yaashi",
   "The Wish Maker",
   "Corona Jubilee",
   "The Bright One",
-  "Astra Eighteen",
+  "Astra Twenty-One",
 ];
 
 type Star = { x: number; y: number; id: number };

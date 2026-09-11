@@ -32,7 +32,7 @@ export default function Gate({ children }: { children: ReactNode }) {
           <p className="text-white/60 mb-6 text-sm">Enter the secret password to continue</p>
           <form onSubmit={(e) => {
             e.preventDefault();
-            if (password.toLowerCase() === "yaashiloml") {
+            if (password.toLowerCase() === config.gate.bypassKey.toLowerCase()) {
               setIsAuthenticated(true);
             } else {
               setError(true);

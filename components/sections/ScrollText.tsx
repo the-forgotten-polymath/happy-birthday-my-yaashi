@@ -4,7 +4,7 @@ import { Fragment, useRef } from "react";
 import { motion, useScroll, useTransform, type MotionValue } from "motion/react";
 import { config } from "@/lib/config";
 
-const PARAGRAPH = `Eighteen chapters in and you're still the most interesting person in any room. This is your year, ${config.nickname}. I can feel it.`;
+const PARAGRAPH = `Twenty-one chapters in and you're still the most interesting person in any room. This is your year, ${config.nickname}. I can feel it.`;
 
 function Word({
   children,

@@ -31,29 +31,29 @@ export type Reason = {
 };
 
 /** Change this one line and the whole site follows. */
-const NAME = "Vrinda";
+const NAME = "Yaashi";
 
 export const config = {
   /* ---------------------------------------------------------------- basics */
   name: NAME,
-  nickname: "My Baby",
-  age: 18,
+  nickname: "kuchupuchu",
+  age: 21,
   /** Used by the countdown + the "days we've been friends" counter */
-  birthday: "2026-08-21",
+  birthday: "2005-09-11",
   friendsSince: "2022-03-18",
 
   /* ------------------------------------------------------------ hero copy */
   hero: {
-    kicker: "August 21st · Chapter 18",
-    greetingWords: ["Happy", "18th"],
+    kicker: "September 11th · Chapter 21",
+    greetingWords: ["Happy", "21st"],
     subtitle:
-      "Eighteen looks breathtaking on you. I built this tiny corner of the internet just to show you how infinitely and profoundly you are loved. Scroll slowly, my baby.",
-    scrollCue: "scroll into eighteen",
+      "Twenty-one looks absolutely incredible on you. I built this tiny corner of the internet to show you how much I love you (and to make you laugh). Scroll slowly, my everything.",
+    scrollCue: "scroll into twenty-one",
   },
 
   /* --------------------------------------------------------- the big word */
   marquee: [
-    "happy 18th birthday my love",
+    "happy 21st birthday my love",
     "the queen of my heart",
     "my beautiful soulmate",
     "my forever and always",
@@ -267,17 +267,17 @@ eighteen: [
   "You are the undeniable queen of my heart, and I will worship you endlessly.",
   "I fall in love with you all over again every single time our eyes meet.",
   "There are simply not enough words in any language to describe the depth of my love for you.",
-  "Happy 18th Birthday, my lifeline. I am yours, now and until the very end of time.",
+  "Happy 21st Birthday, my lifeline. I am yours, now and until the very end of time.",
 ],
 
   /* ------------------------------------------------------------- mixtape */
   mixtape: {
-    title: "the 18 mixtape",
-    subtitle: "press play on eighteen",
+    title: "the 21 mixtape",
+    subtitle: "press play on twenty-one",
     tracks: [
       {
-        title: "Ishq Bulaava",
-        artist: "Hasee Toh Phasee",
+        title: "Happy Birthday my LOML",
+        artist: "kuchupuchu & yaashi",
         time: "5:03",
       },
     ],
@@ -291,7 +291,7 @@ eighteen: [
     revealTitle: "a promise, not a present",
     revealBody:
       "One entire day, anywhere you want, my treat, no arguments. Pick the date and I'll show up with snacks.",
-    couponCode: "VRINDA-DAY-2026",
+    couponCode: "YAASHI-DAY-2026",
   },
 
   cake: {
@@ -310,7 +310,7 @@ letter: {
     "I am trembling as I write this, because I genuinely don't know if human language possesses the words to explain the absolute magnitude of my love for you. You are it for me. You are my last love, my definitive ending, and my most beautiful beginning. I am overwhelmingly, breathlessly grateful that the universe saw fit to collide my path with yours. You are the other half of my soul; without you, I am a ghost, wandering without purpose. You anchor me, you steady me, and you stand fiercely by my side through the darkest of times.",
     "You are my entire world. The thought of losing you paralyzes me. You never, ever have to doubt my loyalty, because my eyes, my heart, and my soul are entirely, permanently fixated on you. Thank you for loving me—flaws and all. Thank you for being the sunshine that pierces through my saddest days. Even now, my heart races wildly just seeing your name light up my phone. You consume my thoughts. You are my only craving, my ultimate necessity. I tell you I love you every day, but even those three words are a tragic understatement for the inferno of devotion I hold for you.",
     "I know I am flawed, but I vow to spend my life trying to be the man you deserve. If I could, I would spend eternity just lying under the stars with you, listening to your heartbeat. Absolutely nothing—no distance, no argument, no hardship—could ever sever the bond I share with you. You are my most trusted confidante and my most passionate lover. You occupy my mind every single second, every hour, with every blink of my eyes. You have colonized my heart. I love you. God, I love you so much it physically aches. Please, never leave my side. The thought of loving anyone else is repulsive to me; I cannot imagine a reality where you are not mine. You have painted my world in colors I never knew existed and filled it with a symphony of joy. I will never, ever be capable of loving another human being the way I love you.",
-    "HAPPY HAPPY HAPPPPPPYYYY HAPPPPIEST BIRTHDAY, VRINDA!",
+    "HAPPY HAPPY HAPPPPPPYYYY HAPPPPIEST BIRTHDAY, YAASHI!",
     "Even with hundreds of miles suffocating the space between us, MY DEVOTION TO YOU REMAINS UNSHAKABLE. You are my courage. You make the impossible feel within reach. You are not just a girl; you are a celestial being, a once-in-a-lifetime miracle, and I am terrified by how lucky I am to have you. You outshine the brightest stars, you are rarer than the most flawless diamond. My love for you stretches further than the sky and dives deeper than the ocean. I believe in you with a fierce, unwavering faith, even when you doubt yourself. Even in the silence, you are the only thought echoing in my mind. I selfishly hope the world never realizes how incredibly special you are, just so I can keep you all to myself. I promise to be your shield, your safe space, your ultimate comfort. I will dry your tears, I will celebrate your victories, and I will fiercely protect your heart. I am bursting with pride just watching you chase your dreams. You are breathtakingly gorgeous, inside and out. ALWAYS REMEMBER: WE ARE BOUND TOGETHER FOREVER. Distance may test our patience, but it will never touch our hearts.",
     "Happy Birthday, my soulmate! May your day overflow with the profound joy you bring into my life. You deserve the absolute world, today and for the rest of eternity.",
     "On this sacred day, I pray that the universe bows to your every wish. Happy Birthday to the most astonishingly beautiful soul I have ever encountered!",
@@ -333,14 +333,15 @@ letter: {
    */
   gate: {
     targetDate: "2026-08-21T00:00:00", // August 21, 2026 at Midnight
-    bypassKey: "vrinda18",
+    bypassKey: "yaashiloml",
   },
 
   /**
    * Final hour countdown messages
    */
   finalHourMessages: [
-    "* 60 minutes to goo \ud83e\uddff\u2764\ufe0f\\nMy heart is racing as we count down to the moment you were born.",
+    "* 60 minutes to goo 🧿❤️
+One hour left! Time to start practicing your surprised face when I give you your gift.",
     "* 59 minutes to goo \ud83e\uddff\u2764\ufe0f\\nMy heart is racing as we count down to the moment you were born.",
     "* 58 minutes to goo \ud83e\uddff\u2764\ufe0f\\nMy heart is racing as we count down to the moment you were born.",
     "* 57 minutes to goo \ud83e\uddff\u2764\ufe0f\\nMy heart is racing as we count down to the moment you were born.",
@@ -370,7 +371,8 @@ letter: {
     "* 33 minutes to goo \ud83e\uddff\u2764\ufe0f\\nEven when I close my eyes, your face is carved into my mind. You are the dream I prayed for, finally standing right in front of me.",
     "* 32 minutes to goo \ud83e\uddff\u2764\ufe0f\\nWhen you're near, the rest of the world fades into silence. You are my entire universe, and my heart beats strictly for you.",
     "* 31 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the rhythm my heart beats to, the sweetest melody my soul has ever known. Words completely fail to capture the depth of my devotion to you.",
-    "* 30 minutes to goo \ud83e\uddff\u2764\ufe0f\\nHappy Birthday, my beautiful girl. The ache of missing you right now is unbearable. It physically hurts not being able to hold you on your special day. But I survive this distance only because I know our reunion will be legendary. I pray the universe showers you with every beautiful thing you\u2019ve ever desired. Never forget how precious you are\u2014you are the most important soul on this earth to me. I love you with an intensity that consumes me.",
+    "* 30 minutes to goo 🧿❤️
+Half an hour! You are my everything, my kuchupuchu, my absolute favorite human.",
     "* 29 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the singular reason my heart beats. You have flooded my life with a love so pure I can hardly comprehend it. I am overwhelmingly grateful you exist.",
     "* 28 minutes to goo \ud83e\uddff\u2764\ufe0f\\nEvery day by your side feels like a profoundly beautiful dream, and I am absolutely terrified of waking up. Let me stay in this dream forever.",
     "* 27 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIn your arms, I found the sanctuary my soul has been frantically searching for since the day I was born. I love you deeper than the ocean.",
@@ -382,9 +384,9 @@ letter: {
     "* 21 minutes to goo \ud83e\uddff\u2764\ufe0f\\nEvery kiss, every fleeting touch, every soft whisper from you sets my soul on fire. You intoxicate me.",
     "* 20 minutes to goo \ud83e\uddff\u2764\ufe0f\\nHappy birthday to the absolute love of my life! The time we've spent together feels like a beautiful blur, yet I remember every second. You consume my thoughts entirely, especially when we are apart. I am counting down the seconds until I can drown in your eyes again. I hope today brings you immeasurable joy. Please remember, with every breath you take today, that someone far away is missing you terribly and loving you endlessly.",
     "* 19 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are my sunrise, my sunset, and the absolute center of my gravity. I love you with a ferocity you couldn't possibly imagine.",
-    "* 18 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIn you, I didn't just find a lover; I found my soulmate, my best friend, and my peace. You complete me in ways I never knew I was incomplete.",
+    "* 18 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIn you, I didn't just find a lover; I found my soulmate, my best friend, and my peace. You complete me, and you also eat my fries even when you said you weren't hungry.",
     "* 17 minutes to goo \ud83e\uddff\u2764\ufe0f\\nEvery single time I look at you, I am overwhelmed by a wave of disbelief that someone as perfect as you chose me.",
-    "* 16 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the missing piece to my puzzle, the very essence that makes my life taste sweet. You are my absolute necessity.",
+    "* 16 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the missing piece to my puzzle, the very essence that makes my life taste sweet. You are my absolute necessity (along with pizza).",
     "* 15 minutes to goo \ud83e\uddff\u2764\ufe0f\\nThe silence between us is deafening, and I miss the sound of your voice more than I miss breathing. The only thing keeping me sane is the promise that this distance will end. I hope you are drowning in love today, because you deserve the entire world. I am aching to hold you again. Chitransh is missing you terribly.",
     "* 14 minutes to goo \ud83e\uddff\u2764\ufe0f\\nI must be completely entirely undone, because I have fallen so deeply, so hopelessly for you.",
     "* 13 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIf kisses were the sky, I would wrap you in the entire universe. I want to shower you with all the affection my soul can muster.",
@@ -399,22 +401,23 @@ letter: {
     "* 04 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIf our love were a story, it would be the greatest romance ever written. You are the happily ever after my soul has been begging for.",
     "* 03 minutes to goo \ud83e\uddff\u2764\ufe0f\\nSeeing your name on my screen is the only notification that can make my heart physically skip a beat. I crave you constantly.",
     "* 02 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIf I had a star for every time your light pulled me out of the dark, I would be holding the entire cosmos in the palm of my hands.",
-    "* 01 minutes to goo \ud83e\uddff\u2764\ufe0f\\nMy darling, The ache of being apart from you is a heavy burden, but my love for you is infinitely stronger. I need you to know that in every second of this separation, you are the only thing on my mind. On your birthday, I want to pour all my gratitude into you\u2014thank you for your light, your love, and for sharing your beautiful soul with me. I love you more than life itself. Happy birthday, my forever.",
+    "* 01 minutes to goo 🧿❤️
+ONE MINUTE! Happy 21st Birthday Yaashi! I love you more than words can say. You are the LOML!",
   ],
 
   /**
    * Secret Konami-style code to trigger a massive confetti explosion.
    * Type this anywhere on the page!
    */
-  secretCode: "vrinda",
+  secretCode: "yaashi",
 
   /**
    * Background music configuration. The player will only render if musicSrc is set.
    * For the visualizer to work perfectly, the audio must not have CORS restrictions.
    */
-  musicSrc: "/IshqBulaava.mp3",
-  songTitle: "Ishq Bulaava",
-  songArtist: "Hasee Toh Phasee",
+  musicSrc: "/song.mp3",
+  songTitle: "Happy Birthday my LOML",
+  songArtist: "kuchupuchu & yaashi",
 } as const;
 
 export type SiteConfig = typeof config;
