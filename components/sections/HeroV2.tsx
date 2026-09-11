@@ -52,7 +52,7 @@ export default function HeroV2() {
             textShadow: "0 0 120px rgba(56,189,248,0.25), 0 0 240px rgba(251,191,36,0.1)",
           }}
         >
-          18
+          21
         </span>
       </motion.div>
 

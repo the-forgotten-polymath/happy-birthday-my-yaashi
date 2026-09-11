@@ -158,7 +158,7 @@ export default function MemoryGame() {
             <span className="block text-3xl">🏆</span>
             <p className="font-display mt-2 text-lg font-bold">you did it!</p>
             <p className="mt-1 text-sm text-white/60">
-              {moves <= 12 ? "Impressive memory! 🧠" : moves <= 18 ? "Well played! 🎉" : "Got there in the end! 😂"}
+              {moves <= 12 ? "Impressive memory! 🧠" : moves <= 21 ? "Well played! 🎉" : "Got there in the end! 😂"}
             </p>
             <p className="mt-1 text-xs text-white/40">{moves} moves</p>
           </motion.div>

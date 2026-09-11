@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 import Reveal from "@/components/ui/Reveal";
 import { burst } from "@/lib/celebrate";
 
-const HIDDEN_MESSAGE = "You're not just a year older - you're a year more legendary. 18 suits you. 💛";
+const HIDDEN_MESSAGE = "You're not just a year older - you're a year more legendary. 21 suits you. 💛";
 
 /**
  * A canvas-based scratch card. The user drags their finger/mouse over a golden

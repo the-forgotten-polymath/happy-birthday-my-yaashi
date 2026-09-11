@@ -6,7 +6,7 @@ import { burst } from "@/lib/celebrate";
 
 const MESSAGES = [
   "you're incredible",
-  "18 looks good on you",
+  "21 looks good on you",
   "main character energy",
   "your laugh > everything",
   "proud of you always",
@@ -21,12 +21,12 @@ const MESSAGES = [
   "everyone's favourite human",
   "built different, honestly",
   "the kindest soul I know",
-  "18 reasons to celebrate",
+  "21 reasons to celebrate",
   "you glow without trying",
   "unstoppable this year",
   "they broke the mould after you",
   "my favourite notification",
-  "chapter 18: your era",
+  "chapter 21: your era",
 ];
 
 const BALLOON_COLORS = [
@@ -55,7 +55,7 @@ type Popped = {
   message: string;
 };
 
-const TOTAL = 18;
+const TOTAL = 21;
 const GAME_DURATION = 30; // seconds
 
 export default function PopBalloons() {
@@ -273,14 +273,14 @@ export default function PopBalloons() {
           className="mt-5 flex items-center gap-4 rounded-2xl bg-white/[0.06] p-4"
         >
           <span className="text-3xl">
-            {score >= 18 ? "🏆" : score >= 12 ? "🎉" : score >= 6 ? "👏" : "😅"}
+            {score >= 21 ? "🏆" : score >= 12 ? "🎉" : score >= 6 ? "👏" : "😅"}
           </span>
           <div className="flex-1 text-left">
             <p className="font-display text-base font-bold">
               {score} / {score + missed} popped!
             </p>
             <p className="text-xs text-white/50">
-              {score >= 18 ? "incredible reflexes! 🔥" : score >= 12 ? "nice going! 🌟" : score >= 6 ? "not bad!" : "they were fast huh? 😂"}
+              {score >= 21 ? "incredible reflexes! 🔥" : score >= 12 ? "nice going! 🌟" : score >= 6 ? "not bad!" : "they were fast huh? 😂"}
             </p>
           </div>
           <motion.button

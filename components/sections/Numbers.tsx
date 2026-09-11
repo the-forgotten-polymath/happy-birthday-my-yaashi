@@ -134,10 +134,10 @@ export default function Numbers() {
           </AnimatePresence>
           <h2 className="font-display text-[clamp(1.9rem,5vw,3.4rem)] leading-tight font-black">
             {time?.celebrating ? (
-              <span className="text-gradient">chapter 18 starts now</span>
+              <span className="text-gradient">chapter 21 starts now</span>
             ) : (
               <>
-                chapter <span className="text-gradient">18</span> starts in
+                chapter <span className="text-gradient">21</span> starts in
               </>
             )}
           </h2>
@@ -172,7 +172,7 @@ export default function Numbers() {
           {[
             { to: config.age, label: "years of being you", suffix: "" },
             { to: daysOfFriendship, label: "days since we met", suffix: "" },
-            { to: 18, label: "chapters written so far", suffix: "" },
+            { to: 21, label: "chapters written so far", suffix: "" },
           ].map((stat, i) => (
             <Reveal key={stat.label} delay={i * 0.12} direction="up">
               <div className="glass hover:border-punch/40 rounded-3xl p-7 text-center transition-colors duration-500">

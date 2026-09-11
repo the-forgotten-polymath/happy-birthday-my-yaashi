@@ -67,7 +67,7 @@ export const config = {
       year: "2023",
       title: "The day we met",
       description:
-        "I met you in my first semester. We both went out to Buddha Temple and had great fun there, I insisted you be a part of Freshers 2K23 and you said \\"No yrr i am not interested kya hi krenge aakr ...\\" and then you came in the evening in a white suit, dancing with all your friends.",
+        "I met you in my first semester. We both went out to Buddha Temple and had great fun there, I insisted you be a part of Freshers 2K23 and you said \"No yrr i am not interested kya hi krenge aakr ...\" and then you came in the evening in a white suit, dancing with all your friends.",
       emoji: "🤝",
     },
     {

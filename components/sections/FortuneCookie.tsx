@@ -14,7 +14,7 @@ const FORTUNES = [
   "That one thing you keep putting off? Do it this month. You'll thank yourself.",
   "You're about to enter your most confident era yet.",
   "An unexpected message is going to make your whole week.",
-  "18 is going to be the year you stop saying 'maybe next time.'",
+  "21 is going to be the year you stop saying 'maybe next time.'",
   "Someone is secretly proud of you. More people than you think, actually.",
   "You'll discover a song this year that becomes the soundtrack to a core memory.",
 ];

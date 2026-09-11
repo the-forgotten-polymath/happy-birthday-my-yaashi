@@ -134,7 +134,7 @@ export default function Intro({ onComplete }: { onComplete: () => void }) {
                   className="text-gradient font-display text-[clamp(5rem,22vw,14rem)] leading-none font-black"
                   style={{ perspective: 1000 }}
                 >
-                  18
+                  21
                 </motion.span>
                 <motion.span
                   initial={{ y: 40, opacity: 0 }}
