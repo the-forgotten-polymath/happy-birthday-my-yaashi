@@ -311,7 +311,7 @@ letter: {
    */
   musicSrc: "/song.mp3",
   songTitle: "Happy Birthday my LOML",
-  songArtist: "",
+  songArtist: "Chitransh",
 } as const;
 
 export type SiteConfig = typeof config;
