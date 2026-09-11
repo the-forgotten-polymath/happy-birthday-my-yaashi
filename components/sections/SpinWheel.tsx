@@ -11,7 +11,6 @@ const PRIZES = [
   { label: "Non-Veg Feast", emoji: "🍗" },
   { label: "Coffee of your Choice", emoji: "☕" },
   { label: "One Free Fight Win", emoji: "🥊" },
-  { label: "FGC position of your choice", emoji: "😈" },
 ];
 
 const ITEM_HEIGHT = 100; // Height of each emoji slot in pixels (h-[100px])

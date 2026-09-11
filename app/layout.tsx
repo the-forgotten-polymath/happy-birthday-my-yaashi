@@ -2,11 +2,11 @@ import type { Metadata, Viewport } from "next";
 import { Geist, Fraunces, Caveat } from "next/font/google";
 import "./globals.css";
 import { config } from "@/lib/config";
+import AudioProvider from "@/components/providers/AudioProvider";
 import SmoothScroll from "@/components/providers/SmoothScroll";
 import ScrollProgress from "@/components/ui/ScrollProgress";
 import CursorGlow from "@/components/ui/CursorGlow";
 import ParticleField from "@/components/ui/ParticleField";
-import MusicPlayerBar from "@/components/ui/MusicPlayerBar";
 import { Analytics } from "@vercel/analytics/react";
 
 const geistSans = Geist({
@@ -54,10 +54,12 @@ export default function RootLayout({
           {/* Dark blue-tinted overlay so text remains readable */}
           <div className="absolute inset-0 bg-[#0a1628]/50" />
         </div>
-        <ParticleField />
-        <CursorGlow />
-        <ScrollProgress />
-        <SmoothScroll>{children}</SmoothScroll>
+        <AudioProvider>
+          <ParticleField />
+          <CursorGlow />
+          <ScrollProgress />
+          <SmoothScroll>{children}</SmoothScroll>
+        </AudioProvider>
         <Analytics />
       </body>
     </html>

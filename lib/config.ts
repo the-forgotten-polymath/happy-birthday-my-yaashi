@@ -54,82 +54,62 @@ export const config = {
   /* --------------------------------------------------------- the big word */
   marquee: [
     "happy 21st birthday Yaashviiiiiiiii🧿",
-    "I am sorry maine 12 bje wish nhi kraa..😔",
     "my beautiful soulmate",
     "my forever and always",
     "the absolute love of my life",
     "21 & deeply loved",
   ],
 
-  /* ------------------------------------------------------------- timeline */
-  timeline: [
-    {
-      year: "2023",
-      title: "The day we met",
-      description:
-        "I met you in my first semester. We both went out to Buddha Temple and had great fun there, I insisted you be a part of Freshers 2K23 and you said \"No yrr i am not interested kya hi krenge aakr ...\" and then you came in the evening in a white suit, dancing with all your friends.",
-      emoji: "🤝",
-    },
-    {
-      year: "2024",
-      title: "The holding hands in class",
-      description:
-        "Suddenly we started talking more and then we occasionaly hold our hands under the desk, eating together, spedning a little much time there .And then you got your friedns and we broke up. and then after some time again we started talking .",
-      emoji: "🫱🫲",
-    },
-    {
-      year: "2025",
-      title: "First Hackathon",
-      description:
-        "The first ever hackathon, first ever long trip together and first ever night out!",
-      emoji: "💻",
-    },
-    {
-      year: "2026",
-      title: "Today",
-      description:
-        "Another year of you existing loudly and brilliantly. Here's to all the ones coming.",
-      emoji: "🎂",
-    },
-  ] satisfies TimelineEvent[],
-
   /* -------------------------------------------------------------- gallery */
   photos: [
     {
-      caption: "the original chaos crew",
+      src: "/photos/photo2.png",
+      caption: "",
       emoji: "📸",
       gradient: "from-rose-400 via-fuchsia-500 to-indigo-500",
       tilt: -6,
     },
     {
-      caption: "that unhinged birthday, 2019",
-      emoji: "🎉",
+      src: "/photos/photo3.png",
+      caption: "",
+      emoji: "🥰",
       gradient: "from-amber-300 via-orange-400 to-rose-500",
       tilt: 4,
     },
     {
-      caption: "golden hour, no filter needed",
-      emoji: "🌅",
+      src: "/photos/photo4.png",
+      caption: "",
+      emoji: "✨",
       gradient: "from-sky-300 via-cyan-400 to-emerald-400",
       tilt: -3,
     },
     {
-      caption: "we laughed until it hurt",
-      emoji: "😂",
+      src: "/photos/photo5.png",
+      caption: "",
+      emoji: "😍",
       gradient: "from-violet-400 via-purple-500 to-fuchsia-600",
       tilt: 7,
     },
     {
-      caption: "the one you told me to delete",
+      src: "/photos/photo6.png",
+      caption: "",
       emoji: "🙈",
       gradient: "from-lime-300 via-emerald-400 to-teal-500",
       tilt: -5,
     },
     {
-      caption: "and here's to the next one",
-      emoji: "🥂",
+      src: "/photos/photo7.png",
+      caption: "",
+      emoji: "🌅",
       gradient: "from-pink-400 via-red-400 to-amber-400",
       tilt: 3,
+    },
+    {
+      src: "/photos/photo8.png",
+      caption: "",
+      emoji: "💕",
+      gradient: "from-cyan-400 via-blue-500 to-indigo-500",
+      tilt: -4,
     },
   ] satisfies Photo[],
 

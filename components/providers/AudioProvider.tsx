@@ -78,15 +78,22 @@ export default function AudioProvider({ children }: { children: ReactNode }) {
     const handleEnded = () => setPlaying(false);
     const handlePause = () => setPlaying(false);
     const handlePlay = () => setPlaying(true);
+    const handleTimeUpdate = () => {
+      if (el.currentTime >= 54) {
+        el.currentTime = 0;
+      }
+    };
     
     el.addEventListener("ended", handleEnded);
     el.addEventListener("pause", handlePause);
     el.addEventListener("play", handlePlay);
+    el.addEventListener("timeupdate", handleTimeUpdate);
     
     return () => {
       el.removeEventListener("ended", handleEnded);
       el.removeEventListener("pause", handlePause);
       el.removeEventListener("play", handlePlay);
+      el.removeEventListener("timeupdate", handleTimeUpdate);
     };
   }, []);
 

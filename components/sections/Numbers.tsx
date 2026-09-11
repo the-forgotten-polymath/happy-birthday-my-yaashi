@@ -89,7 +89,7 @@ export default function Numbers() {
             >
               <Image 
                 src="/main.png" 
-                alt="My beautiful girl" 
+                alt="My beautiful Yaashi" 
                 fill 
                 className="object-cover"
                 priority
@@ -116,7 +116,7 @@ export default function Numbers() {
                 >
                   <img 
                     src="/main.png" 
-                    alt="My beautiful girl" 
+                    alt="My beautiful Yaashi" 
                     className="w-full h-full object-contain"
                   />
                   
