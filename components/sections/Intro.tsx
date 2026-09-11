@@ -93,7 +93,6 @@ export default function Intro({ onComplete }: { onComplete: () => void }) {
                 exit={{ opacity: 0, scale: 0.9, filter: "blur(10px)" }}
                 onClick={() => {
                   window.dispatchEvent(new CustomEvent("UNLOCK_AUDIO"));
-                  window.dispatchEvent(new CustomEvent("PLAY_AUDIO"));
                   setPhase("counting");
                 }}
                 className="font-display absolute z-50 flex flex-col items-center gap-4 text-3xl font-bold text-white/80 hover:text-white transition-colors cursor-pointer"

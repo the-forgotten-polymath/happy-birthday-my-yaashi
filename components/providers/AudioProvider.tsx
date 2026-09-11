@@ -100,10 +100,24 @@ export default function AudioProvider({ children }: { children: ReactNode }) {
     const handlePlayAudio = () => {
       playAudio();
     };
-    const handleUnlockAudio = () => {
+    const handleUnlockAudio = async () => {
+      const el = audioRef.current;
       initAudioContext();
       if (audioCtxRef.current?.state === "suspended") {
         audioCtxRef.current.resume().catch(() => {});
+      }
+      if (el) {
+        try {
+          // Pre-activate audio element synchronously on tap so browser permits playback after intro
+          const prevVol = el.volume;
+          el.volume = 0;
+          await el.play();
+          el.pause();
+          el.currentTime = 0;
+          el.volume = prevVol || 1.0;
+        } catch {
+          // Ignore if already unlocked
+        }
       }
     };
 
