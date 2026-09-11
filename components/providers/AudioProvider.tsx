@@ -55,7 +55,8 @@ export default function AudioProvider({ children }: { children: ReactNode }) {
     }
 
     try {
-      el.volume = 0.45;
+      el.muted = false;
+      el.volume = 1.0;
       await el.play();
       setPlaying(true);
     } catch (err) {
@@ -75,6 +76,24 @@ export default function AudioProvider({ children }: { children: ReactNode }) {
       await playAudio();
     }
   };
+
+  // Unlock audio context on the very first user click/tap anywhere
+  useEffect(() => {
+    const handleFirstInteraction = () => {
+      initAudioContext();
+      if (audioCtxRef.current?.state === "suspended") {
+        audioCtxRef.current.resume().catch(() => {});
+      }
+    };
+
+    window.addEventListener("click", handleFirstInteraction, { once: true });
+    window.addEventListener("touchstart", handleFirstInteraction, { once: true });
+
+    return () => {
+      window.removeEventListener("click", handleFirstInteraction);
+      window.removeEventListener("touchstart", handleFirstInteraction);
+    };
+  }, []);
 
   // Listen for PLAY_AUDIO and UNLOCK_AUDIO custom events from Intro / AppShell
   useEffect(() => {
@@ -130,9 +149,8 @@ export default function AudioProvider({ children }: { children: ReactNode }) {
         <audio 
           ref={audioRef} 
           src={config.musicSrc} 
-          crossOrigin="anonymous" 
           loop 
-          preload="none" 
+          preload="auto" 
         />
       )}
       {children}
