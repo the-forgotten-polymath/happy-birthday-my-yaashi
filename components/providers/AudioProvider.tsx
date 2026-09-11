@@ -44,33 +44,60 @@ export default function AudioProvider({ children }: { children: ReactNode }) {
     }
   };
 
-  const togglePlay = async () => {
+  const playAudio = async () => {
     const el = audioRef.current;
     if (!el) return;
 
     initAudioContext();
 
-    // Ensure audio context is running (it might be suspended due to autoplay policies)
     if (audioCtxRef.current?.state === "suspended") {
       await audioCtxRef.current.resume();
     }
+
+    try {
+      el.volume = 0.45;
+      await el.play();
+      setPlaying(true);
+    } catch (err) {
+      console.error("Audio playback failed:", err);
+      setPlaying(false);
+    }
+  };
+
+  const togglePlay = async () => {
+    const el = audioRef.current;
+    if (!el) return;
 
     if (playing) {
       el.pause();
       setPlaying(false);
     } else {
-      try {
-        el.volume = 0.45;
-        await el.play();
-        setPlaying(true);
-      } catch (err) {
-        console.error("Audio playback failed:", err);
-        setPlaying(false);
-      }
+      await playAudio();
     }
   };
 
-  // Sync state if audio ends
+  // Listen for PLAY_AUDIO and UNLOCK_AUDIO custom events from Intro / AppShell
+  useEffect(() => {
+    const handlePlayAudio = () => {
+      playAudio();
+    };
+    const handleUnlockAudio = () => {
+      initAudioContext();
+      if (audioCtxRef.current?.state === "suspended") {
+        audioCtxRef.current.resume().catch(() => {});
+      }
+    };
+
+    window.addEventListener("PLAY_AUDIO", handlePlayAudio);
+    window.addEventListener("UNLOCK_AUDIO", handleUnlockAudio);
+
+    return () => {
+      window.removeEventListener("PLAY_AUDIO", handlePlayAudio);
+      window.removeEventListener("UNLOCK_AUDIO", handleUnlockAudio);
+    };
+  }, []);
+
+  // Sync state if audio ends or loops
   useEffect(() => {
     const el = audioRef.current;
     if (!el) return;
