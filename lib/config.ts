@@ -134,140 +134,56 @@ export const config = {
   ] satisfies Photo[],
 
   /* -------------------------------------------------------------- reasons */
-  reasonsTitle: "18 reasons why you're special to me",
+  reasonsTitle: "21 reasons why you're special to me",
 
   reasons: [
-    {
-      title: "You are my absolute lifeline",
-      description:
-        "Without you, I wouldn't know how to breathe. You are the oxygen that keeps my soul alive, my ultimate necessity.",
-      emoji: "🫀",
-    },
-    {
-      title: "The way you look at me",
-      description:
-        "Every time your eyes meet mine, my entire universe stops. It’s the safest, most beautiful place I have ever known.",
-      emoji: "👀",
-    },
-    {
-      title: "You anchor my soul",
-      description:
-        "Through every storm and every dark day, your love is the only thing that steadies my heart. You are my peace.",
-      emoji: "⚓",
-    },
-    {
-      title: "Your breathtaking smile",
-      description:
-        "You have the kind of smile that could light up the darkest corners of the cosmos. It cures absolutely all of my sadness.",
-      emoji: "✨",
-    },
-    {
-      title: "You are my missing half",
-      description:
-        "Before you, my world was in pieces. With you, everything finally makes perfect, beautiful sense. You complete me.",
-      emoji: "🧩",
-    },
-    {
-      title: "The comfort of your voice",
-      description:
-        "Even just hearing you say my name sends shivers down my spine and floods my heart with an indescribable calm.",
-      emoji: "🎵",
-    },
-    {
-      title: "You are my ultimate dream",
-      description:
-        "I spent my whole life praying for an angel, and the universe gave me you. Reality is finally better than my wildest dreams.",
-      emoji: "🌌",
-    },
-    {
-      title: "The profound way you love me",
-      description:
-        "You love me, flaws and all, with a fierce, unconditional passion that makes me want to be the best man in the world for you.",
-      emoji: "❤️",
-    },
-    {
-      title: "You are my only home",
-      description:
-        "Home isn't a physical place for me anymore; it is wherever you are. Your arms are my ultimate, eternal sanctuary.",
-      emoji: "🏡",
-    },
-    {
-      title: "Your radiant, pure soul",
-      description:
-        "You have a heart of absolute gold. The kindness and warmth you carry is rarer than the most flawless diamond.",
-      emoji: "💎",
-    },
-    {
-      title: "You make the ordinary magical",
-      description:
-        "Even the most boring, mundane moments become spectacular, cherished memories simply because I am sharing them with you.",
-      emoji: "🪄",
-    },
-    {
-      title: "My unshakeable devotion",
-      description:
-        "Every second that passes, I fall more hopelessly and intensely in love with you. My heart beats strictly for you.",
-      emoji: "🔥",
-    },
-    {
-      title: "You are my courage",
-      description:
-        "You make the impossible feel within reach. With you standing fiercely by my side, I feel like I can conquer the entire world.",
-      emoji: "🦁",
-    },
-    {
-      title: "Our unbreakable bond",
-      description:
-        "No distance, no argument, and no hardship could ever sever the profound connection we share. We are bound together forever.",
-      emoji: "🔗",
-    },
-    {
-      title: "You consume my thoughts",
-      description:
-        "You occupy my mind every single second, with every blink of my eyes. You have completely and beautifully colonized my heart.",
-      emoji: "💭",
-    },
-    {
-      title: "That unforgettable hug and kiss",
-      description:
-        "I will never forget the magic of that hug and kiss we shared. It set my entire soul on fire, and since that moment, I've been completely addicted to you, my love.",
-      emoji: "💋",
-    },
-    {
-      title: "You are my best friend",
-      description:
-        "You are not just my gorgeous girlfriend; you are my most trusted confidante, my partner in chaos, and my absolute favorite person.",
-      emoji: "🤝",
-    },
-    {
-      title: "You are my forever",
-      description:
-        "I am fiercely, passionately yours. You are my last love, my definitive ending, and my most beautiful beginning.",
-      emoji: "♾️",
-    }
+    { title: "Your infectious laugh", description: "The way you laugh when I do something stupid is my favorite sound in the world.", emoji: "😂" },
+    { title: "You are my safest place", description: "Whenever the world gets overwhelming, your arms are the only place I want to hide.", emoji: "🏡" },
+    { title: "Your weird little habits", description: "Even your quirkiest, weirdest habits are absolutely adorable to me. I wouldn't change a thing.", emoji: "🤪" },
+    { title: "You steal my fries", description: "You always say you aren't hungry, but then you eat half my fries. And honestly, I love you for it.", emoji: "🍟" },
+    { title: "Your breathtaking beauty", description: "I still can't believe someone as insanely gorgeous as you actually likes me back.", emoji: "✨" },
+    { title: "You make everything lighter", description: "You unknowingly make every heavy feeling disappear just by being in the same room.", emoji: "🎈" },
+    { title: "My absolute necessity", description: "You are as essential to my survival as oxygen (and maybe pizza).", emoji: "🍕" },
+    { title: "Your incredible strength", description: "You are so strong, even when you doubt yourself. I am endlessly proud of you.", emoji: "💪" },
+    { title: "You are my peace", description: "My mind is always racing, but you bring this incredible sense of calm to my chaos.", emoji: "🌊" },
+    { title: "The way you talk", description: "I could listen to you talk about absolutely nothing for hours and never get bored.", emoji: "🗣️" },
+    { title: "You trust me", description: "The fact that you trust me with your heart is a privilege I will never take for granted.", emoji: "🔒" },
+    { title: "You make me better", description: "I want to be the best possible version of myself, just so I can be the man you deserve.", emoji: "📈" },
+    { title: "Our late-night talks", description: "Those quiet moments when it's just you, me, and the stars are the best parts of my life.", emoji: "🌙" },
+    { title: "You are my first thought", description: "Every single morning, before I even fully wake up, you are already on my mind.", emoji: "🌅" },
+    { title: "Your endless patience", description: "You put up with all my nonsense, and you do it with a smile. You're a saint.", emoji: "😇" },
+    { title: "You are my favorite feeling", description: "Loving you feels like the most natural, effortless thing I have ever done.", emoji: "❤️" },
+    { title: "We can be silent together", description: "We don't always need words. Just being next to you is enough.", emoji: "🤫" },
+    { title: "You celebrate my wins", description: "You are my biggest cheerleader, and your support means the absolute world to me.", emoji: "🎉" },
+    { title: "You are entirely unique", description: "There is no one else like you on this planet. You are a once-in-a-lifetime miracle.", emoji: "💎" },
+    { title: "You complete me", description: "I didn't know what I was missing until you walked into my life and made it whole.", emoji: "🧩" },
+    { title: "You are my forever", description: "No matter what life throws at us, I know we will face it together. I am yours, always.", emoji: "♾️" }
   ] satisfies Reason[],
 
   /* -------------------------------------------------------- eighteen */
-  /** 18 quick-fire facts/memories — one for every year of her life */
+  /** 21 quick-fire facts/memories — one for every year of her life */
 eighteen: [
-  "You are the single most beautiful thing that has ever happened to me.",
-  "I promise to spend the rest of my life making sure you know how fiercely you are loved.",
-  "There is absolutely nothing in this world I wouldn't do to see you smile.",
-  "You have healed parts of my soul I didn't even know were broken.",
-  "My love for you grows deeper and more intense with every single breath I take.",
-  "You are my peace, my sanctuary, and the only home my heart will ever know.",
-  "I would choose you in a hundred lifetimes, in a hundred worlds, in any version of reality.",
-  "No matter how far apart we are, my soul is always entangled with yours.",
-  "You are the dream I never thought I deserved, and now you are my beautiful reality.",
-  "The thought of a future without you is unimaginable; you are my absolute forever.",
-  "I am completely, hopelessly, and wonderfully addicted to every part of you.",
-  "You make every dark day disappear just by existing in my world.",
-  "I am so incredibly proud of the breathtaking woman you are becoming.",
-  "I will always protect your heart and be your absolute safest place to land.",
-  "You are the undeniable queen of my heart, and I will worship you endlessly.",
-  "I fall in love with you all over again every single time our eyes meet.",
-  "There are simply not enough words in any language to describe the depth of my love for you.",
-  "Happy 21st Birthday, my lifeline. I am yours, now and until the very end of time.",
+  "You entered my life unexpectedly, and now you are my entire world.",
+  "I catch myself smiling at my phone like an idiot just thinking about you.",
+  "You are the most beautiful part of my life.",
+  "Sometimes I reread our conversations just to feel close to you.",
+  "I promise to always be your safe space, no matter how hard things get.",
+  "Your smile lights up my darkest days.",
+  "I will always be here to support you and walk this journey with you.",
+  "You are my happiness, my peace, and the best thing that ever happened to me.",
+  "I love the little things about you the most.",
+  "I feel so incredibly lucky to have you by my side.",
+  "You've made my life brighter, softer, and infinitely more meaningful.",
+  "I want to be someone you can always lean on.",
+  "Every moment with you is a memory I cherish deeply.",
+  "You never have to question if you are enough, because to me, you are everything.",
+  "I love you more than words can ever truly express.",
+  "You are truly one of a kind, and I thank God every day for you.",
+  "I will always be here to care for you and protect your heart.",
+  "You are my favorite person to do absolutely nothing with.",
+  "I love you from the deepest part of my heart.",
+  "You are not alone, and you will never be alone. I am with you.",
+  "Happy 21st Birthday, my Yaashii. I am yours forever."
 ],
 
   /* ------------------------------------------------------------- mixtape */
@@ -307,18 +223,16 @@ letter: {
   envelopeHint: "one last thing — open it",
   greeting: `Dear ${NAME},`,
   paragraphs: [
-    "Happy Birthday, My Cutul..❤️🥺",
-    "First of all... I am sorry maine 12 bje wish nhi kraa..😔",
-    "Today is a special day, not just because it's your birthday, but because the world was blessed with someone as beautiful, strong, and special as you. I want you to know that even if things aren't perfect right now, your life means so much to me and to everyone around you. You are truly one of a kind, and I thank God every day for bringing you into my life.",
-    "I don't even know where to begin because no words ever feel enough when it comes to you. How do I explain what you've become to me? How do I explain that someone who was once just a person I talked to somehow became my safest place, my favorite feeling, and the first thought on my mind every single day?",
-    "You entered my life so normally, so unexpectedly... yet now loving you feels like the most natural thing in the world. And honestly? That's what makes it so special. I love the little things about you the most. The way you talk. The way you laugh. The way you unknowingly make everything feel lighter just by being there.",
-    "Your presence in my life has been a gift beyond words. You've taught me so much about love, trust. I feel lucky to be the one with you every day knowning i have you with me.",
-    "I understand that life can sometimes get overwhelming, and I know you may feel uncertain or doubt yourself. But through it all, I'm here, wholeheartedly, to stand by you. I want to be someone you can lean on, someone who loves you exactly as you are, even when things feel difficult. I want to be a safe place where you never have to question if you're enough, because, to me, you always are.",
-    "Today is the most special day for me because it's the day the most beautiful part of my life was born. You're not just my special, you're my happiness, my peace, and the best thing that has ever happened to me. Your smile lights up my darkest days, and your voice brings comfort to my heart in ♾️ ways I can't even explain.",
-    "I may not always find the perfect words, but please know that my feelings for you are always real and pure. I feel so lucky to have you by my side. You've made my life brighter, softer, and so much more meaningful. Every moment with you is a memory I cherish deeply.",
-    "I love you so much, and I mean that from the deepest part of my heart. No matter what life brings, I'll always be here to support you, to care for you, and to walk this journey with you. You are not alone, and you'll never be alone I'm with you, always.",
-    "On your special day, I pray that all your dreams come true and that your life is filled with endless happiness.",
-    "Happiest Birthday my Yaashii..❤️ Happiest Birthday Yaashviiiiiiiii🧿"
+    "To my absolutely beautiful Yaashi,",
+    "First of all... I am so sorry maine 12 bje wish nhi kraa..😔 But I promise to spend the rest of today, and the rest of my life, making it up to you.",
+    "Today is the most special day for me, because it is the day the most beautiful, strong, and incredible part of my life was born. I don't even know where to begin, because no words ever feel like enough when it comes to you. How do I explain what you've become to me? Someone who was once just a person I talked to has somehow become my absolute safest place, my favorite feeling in the world, and the very first thought on my mind every single day.",
+    "You entered my life so normally, so unexpectedly... yet now, loving you feels like the most natural thing I have ever done. It's the little things about you that completely melt my heart. The way you talk, the way you laugh, the way you unknowingly make every heavy feeling disappear just by walking into the room. Even your smallest, weirdest habits have carved out a permanent place in my heart.",
+    "I know that life can get overwhelming sometimes, and I know you may feel uncertain or doubt yourself. But through it all, I want you to know that I am here, wholeheartedly, standing right beside you. I want to be the person you can always lean on, the one who loves you exactly as you are, especially when things feel difficult. I want to be your safe place where you never have to question if you are enough—because to me, you always are.",
+    "Your presence in my life is a gift beyond words. You have taught me so much about love and trust, and I feel breathlessly lucky to be the one who gets to hold your hand. My feelings for you are so deeply real and pure. You have made my life brighter, softer, and infinitely more meaningful, and I cherish every single memory we create together.",
+    "I love you so much, from the absolute deepest part of my soul. No matter what life brings us, I will always be here to support you, to care for you, and to walk this journey with you. You are never alone. I am with you, always.",
+    "On your special day, I pray that the universe grants you every single wish, and that your life overflows with the endless happiness you deserve.",
+    "Happiest Birthday my Yaashii... I love you.",
+    "Happiest Birthday Yaashviiiiiiiii🧿"
   ],
   signoff: "Happiest Birthday my Yaashii..❤️",
   signature: "— always, CHITRANSH <3",
@@ -335,7 +249,7 @@ letter: {
    * Countdown gate configuration. Blocks the site until the target date.
    */
   gate: {
-    targetDate: "2026-08-21T00:00:00", // August 21, 2026 at Midnight
+    targetDate: "2026-09-11T00:00:00", // August 21, 2026 at Midnight
     bypassKey: "yaashiloml",
   },
 
@@ -343,69 +257,66 @@ letter: {
    * Final hour countdown messages
    */
   finalHourMessages: [
-    "* 60 minutes to goo 🧿❤️
-One hour left! Time to start practicing your surprised face when I give you your gift.",
-    "* 59 minutes to goo \ud83e\uddff\u2764\ufe0f\\nMy heart is racing as we count down to the moment you were born.",
-    "* 58 minutes to goo \ud83e\uddff\u2764\ufe0f\\nMy heart is racing as we count down to the moment you were born.",
-    "* 57 minutes to goo \ud83e\uddff\u2764\ufe0f\\nMy heart is racing as we count down to the moment you were born.",
-    "* 56 minutes to goo \ud83e\uddff\u2764\ufe0f\\nMy love for you transcends time. I adore the woman you were, I am completely captivated by the woman you are, and I am endlessly devoted to the woman you will become.",
-    "* 55 minutes to goo \ud83e\uddff\u2764\ufe0f\\nBefore you, I didn't even realize my world was in pieces. You are my missing half, my peace, and my entire universe. I love you beyond the limits of language.",
-    "* 54 minutes to goo \ud83e\uddff\u2764\ufe0f\\nEvery breath I take somehow belongs to you. My love for you deepens with every passing second, anchoring my soul to yours.",
-    "* 53 minutes to goo \ud83e\uddff\u2764\ufe0f\\nThe miles between us are agonizing, but they only prove that my love for you cannot be bound by distance. You are always right here, beating in my chest.",
-    "* 52 minutes to goo \ud83e\uddff\u2764\ufe0f\\nSending you every ounce of warmth in my soul. Even from afar, I hope you feel my arms wrapped tightly around you on your special day.",
-    "* 51 minutes to goo \ud83e\uddff\u2764\ufe0f\\nDistance can keep our hands apart, but our souls are entwined in a way that time and space could never touch.",
-    "* 50 minutes to goo \ud83e\uddff\u2764\ufe0f\\nWishing the most ethereal birthday to the woman who stole my heart without even trying. You are my greatest blessing, across any distance.",
-    "* 49 minutes to goo \ud83e\uddff\u2764\ufe0f\\nSeparated by miles, yet you are the most constant, overwhelming presence in my life. You are the gravity that keeps me grounded.",
-    "* 48 minutes to goo \ud83e\uddff\u2764\ufe0f\\nMay this day overflow with the profound joy you bring into my life. I am loving you fiercely from exactly where I am.",
-    "* 47 minutes to goo \ud83e\uddff\u2764\ufe0f\\nNo ocean is wide enough, no distance is great enough, to dilute a single drop of the immense love I hold for you.",
-    "* 46 minutes to goo \ud83e\uddff\u2764\ufe0f\\nThis distance is a test, but it only sets my love for you ablaze. It makes me crave you, cherish you, and love you with a terrifying intensity.",
-    "* 45 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the reason I finally understand what poetry is trying to say. You are my living, breathing miracle. I love you, eternally.",
-    "* 44 minutes to goo \ud83e\uddff\u2764\ufe0f\\nWhen I look into your eyes, I don't just see a future\u2014I see the only future worth living. I love you to the ends of the universe.",
-    "* 43 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the confidante of my soul and the undisputed queen of my heart. I will love you endlessly, in this life and the next.",
-    "* 42 minutes to goo \ud83e\uddff\u2764\ufe0f\\nNo matter what the universe throws at us, my heart will always navigate back to you. You are my ultimate desire and my safest home.",
-    "* 41 minutes to goo \ud83e\uddff\u2764\ufe0f\\nFalling for you wasn't a choice; it was destiny. Loving you is the most beautiful thing my soul has ever done. You are my everything.",
-    "* 40 minutes to goo \ud83e\uddff\u2764\ufe0f\\nI love you not just for the radiant soul you are, but for the man you inspire me to be when I am basking in your light.",
-    "* 39 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou didn't just make my life better; you brought it to life. I adore you with every fiber of my being, my darling.",
-    "* 38 minutes to goo \ud83e\uddff\u2764\ufe0f\\nEvery single time my eyes land on you, I fall into a deeper, more breathtaking kind of love. It\u2019s like discovering you for the first time, over and over again.",
-    "* 37 minutes to goo \ud83e\uddff\u2764\ufe0f\\nI love you with an intensity that terrifies me. I vow to spend the rest of my breathing days proving to you just how worshipped you are.",
-    "* 36 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the radiant light that chases away all my shadows. You heal parts of me you didn't even break. I love you.",
-    "* 35 minutes to goo \ud83e\uddff\u2764\ufe0f\\nMy heart surrendered to you a long time ago, and it is yours to keep until the stars burn out and time ceases to exist.",
-    "* 34 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the empress of my soul. I will spend every day of my life ensuring you feel as cherished and revered as the royalty you are.",
-    "* 33 minutes to goo \ud83e\uddff\u2764\ufe0f\\nEven when I close my eyes, your face is carved into my mind. You are the dream I prayed for, finally standing right in front of me.",
-    "* 32 minutes to goo \ud83e\uddff\u2764\ufe0f\\nWhen you're near, the rest of the world fades into silence. You are my entire universe, and my heart beats strictly for you.",
-    "* 31 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the rhythm my heart beats to, the sweetest melody my soul has ever known. Words completely fail to capture the depth of my devotion to you.",
-    "* 30 minutes to goo 🧿❤️
-Half an hour! You are my everything, my kuchupuchu, my absolute favorite human.",
-    "* 29 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the singular reason my heart beats. You have flooded my life with a love so pure I can hardly comprehend it. I am overwhelmingly grateful you exist.",
-    "* 28 minutes to goo \ud83e\uddff\u2764\ufe0f\\nEvery day by your side feels like a profoundly beautiful dream, and I am absolutely terrified of waking up. Let me stay in this dream forever.",
-    "* 27 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIn your arms, I found the sanctuary my soul has been frantically searching for since the day I was born. I love you deeper than the ocean.",
-    "* 26 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are my greatest, most beautiful adventure. You are the story I want to read, write, and live, every single day for the rest of my life.",
-    "* 25 minutes to goo \ud83e\uddff\u2764\ufe0f\\nHappy birthday to the soul who holds my heart from miles away. The distance today is a cruel joke, but it only reminds me how desperately I need you. I hope your day is overflowing with laughter, warmth, and joy. But as you celebrate, please feel my presence right there beside you, loving you silently, waiting for the moment I can finally pull you into my arms.",
-    "* 24 minutes to goo \ud83e\uddff\u2764\ufe0f\\nWith you, reality is finally better than my wildest fantasies. Thank you for being my fairy tale and my forever.",
-    "* 23 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYour love is the lighthouse that guides me through my darkest storms. I am breathtakingly lucky to call you mine.",
-    "* 22 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the most mesmerizing, beautiful chapter of my existence. I am trembling with excitement to see the rest of the life we build together.",
-    "* 21 minutes to goo \ud83e\uddff\u2764\ufe0f\\nEvery kiss, every fleeting touch, every soft whisper from you sets my soul on fire. You intoxicate me.",
-    "* 20 minutes to goo \ud83e\uddff\u2764\ufe0f\\nHappy birthday to the absolute love of my life! The time we've spent together feels like a beautiful blur, yet I remember every second. You consume my thoughts entirely, especially when we are apart. I am counting down the seconds until I can drown in your eyes again. I hope today brings you immeasurable joy. Please remember, with every breath you take today, that someone far away is missing you terribly and loving you endlessly.",
-    "* 19 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are my sunrise, my sunset, and the absolute center of my gravity. I love you with a ferocity you couldn't possibly imagine.",
-    "* 18 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIn you, I didn't just find a lover; I found my soulmate, my best friend, and my peace. You complete me, and you also eat my fries even when you said you weren't hungry.",
-    "* 17 minutes to goo \ud83e\uddff\u2764\ufe0f\\nEvery single time I look at you, I am overwhelmed by a wave of disbelief that someone as perfect as you chose me.",
-    "* 16 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the missing piece to my puzzle, the very essence that makes my life taste sweet. You are my absolute necessity (along with pizza).",
-    "* 15 minutes to goo \ud83e\uddff\u2764\ufe0f\\nThe silence between us is deafening, and I miss the sound of your voice more than I miss breathing. The only thing keeping me sane is the promise that this distance will end. I hope you are drowning in love today, because you deserve the entire world. I am aching to hold you again. Chitransh is missing you terribly.",
-    "* 14 minutes to goo \ud83e\uddff\u2764\ufe0f\\nI must be completely entirely undone, because I have fallen so deeply, so hopelessly for you.",
-    "* 13 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIf kisses were the sky, I would wrap you in the entire universe. I want to shower you with all the affection my soul can muster.",
-    "* 12 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou make my heart race and my soul sing just by existing. You are, without a doubt, the most magnificent person I've ever known.",
-    "* 11 minutes to goo \ud83e\uddff\u2764\ufe0f\\nI caught myself smiling at nothing today, only to realize my mind was wandering through memories of your beautiful face.",
-    "* 10 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIt shatters my heart that I cannot be there to kiss you at midnight, but my soul is celebrating you from across these miles. You are the center of my universe, and no matter where life scatters us, my heart will always, always belong to you.",
-    "* 09 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIf I could trade everything I own just to teleport into your arms right now, I would do it in a heartbeat. I miss you intensely, my love.",
-    "* 08 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the blood in my veins, the air in my lungs, and the breathtaking smile permanently painted on my face.",
-    "* 07 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYour laugh is the only soundtrack I ever want to hear. It cures my sadness and makes my entire world vibrate with happiness.",
-    "* 06 minutes to goo \ud83e\uddff\u2764\ufe0f\\nYou are the absolute highlight of my existence. Just the mere thought of you is enough to pull me out of my darkest days.",
-    "* 05 minutes to goo \ud83e\uddff\u2764\ufe0f\\nThis physical distance means nothing compared to the depth of our emotional bond. Our love is an immovable mountain, weathering every storm. We've conquered so much, and this distance is just another chapter in our legendary love story. I am deeply, madly, overwhelmingly in love with you. I cannot wait to hold you. Happy Birthday, my soulmate!",
-    "* 04 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIf our love were a story, it would be the greatest romance ever written. You are the happily ever after my soul has been begging for.",
-    "* 03 minutes to goo \ud83e\uddff\u2764\ufe0f\\nSeeing your name on my screen is the only notification that can make my heart physically skip a beat. I crave you constantly.",
-    "* 02 minutes to goo \ud83e\uddff\u2764\ufe0f\\nIf I had a star for every time your light pulled me out of the dark, I would be holding the entire cosmos in the palm of my hands.",
-    "* 01 minutes to goo 🧿❤️
-ONE MINUTE! Happy 21st Birthday Yaashi! I love you more than words can say. You are the LOML!",
+    "* 60 minutes to goo 🧿❤️\nOne hour left! I am officially vibrating with excitement for your special day.",
+    "* 59 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 58 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 57 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 56 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 55 minutes to goo 🧿❤️\nJust 55 minutes left until the world celebrates the birth of my favorite person!",
+    "* 54 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 53 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 52 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 51 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 50 minutes to goo 🧿❤️\nJust 50 minutes left until the world celebrates the birth of my favorite person!",
+    "* 49 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 48 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 47 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 46 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 45 minutes to goo 🧿❤️\nJust 45 minutes left until the world celebrates the birth of my favorite person!",
+    "* 44 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 43 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 42 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 41 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 40 minutes to goo 🧿❤️\nJust 40 minutes left until the world celebrates the birth of my favorite person!",
+    "* 39 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 38 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 37 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 36 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 35 minutes to goo 🧿❤️\nJust 35 minutes left until the world celebrates the birth of my favorite person!",
+    "* 34 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 33 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 32 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 31 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 30 minutes to goo 🧿❤️\nHalf an hour! You are my everything, my kuchupuchu, my absolute favorite human.",
+    "* 29 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 28 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 27 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 26 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 25 minutes to goo 🧿❤️\nJust 25 minutes left until the world celebrates the birth of my favorite person!",
+    "* 24 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 23 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 22 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 21 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 20 minutes to goo 🧿❤️\nJust 20 minutes left until the world celebrates the birth of my favorite person!",
+    "* 19 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 18 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 17 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 16 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 15 minutes to goo 🧿❤️\nJust 15 minutes left until the world celebrates the birth of my favorite person!",
+    "* 14 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 13 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 12 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 11 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 10 minutes to goo 🧿❤️\nJust 10 minutes left until the world celebrates the birth of my favorite person!",
+    "* 09 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 08 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 07 minutes to goo 🧿❤️\nThinking about how incredibly lucky I am to have you in my life.",
+    "* 06 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 05 minutes to goo 🧿❤️\nJust 5 minutes left until the world celebrates the birth of my favorite person!",
+    "* 04 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 03 minutes to goo 🧿❤️\nI am counting down every single second until I can see your beautiful smile.",
+    "* 02 minutes to goo 🧿❤️\nEvery minute that passes is just another minute I spend falling deeper in love with you.",
+    "* 01 minutes to goo 🧿❤️\nONE MINUTE! Happy 21st Birthday Yaashii! I love you more than words can say. You are the LOML!",
   ],
 
   /**
@@ -420,7 +331,7 @@ ONE MINUTE! Happy 21st Birthday Yaashi! I love you more than words can say. You 
    */
   musicSrc: "/song.mp3",
   songTitle: "Happy Birthday my LOML",
-  songArtist: "kuchupuchu & yaashi",
+  songArtist: "",
 } as const;
 
 export type SiteConfig = typeof config;

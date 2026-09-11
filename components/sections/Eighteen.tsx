@@ -84,7 +84,7 @@ export default function Eighteen() {
               transition={{ type: "spring", stiffness: 120, damping: 14 }}
             >
               <span className="text-gradient font-display text-[clamp(4rem,18vw,12rem)] leading-none font-black">
-                22
+                21
               </span>
             </motion.div>
             <h2 className="font-display mt-4 text-[clamp(1.4rem,4vw,2.6rem)] font-bold text-white/90">

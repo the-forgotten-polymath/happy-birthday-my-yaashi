@@ -125,7 +125,7 @@ function ProgressRing({ progress }: { progress: number }) {
         </defs>
       </svg>
       <span className="font-display text-gradient absolute inset-0 flex items-center justify-center text-lg font-black">
-        {Math.round(progress * 18)}/18
+        {Math.round(progress * 21)}/21
       </span>
     </div>
   );
@@ -160,7 +160,7 @@ export default function EighteenV2() {
                 textShadow: "0 0 80px rgba(251,191,36,0.3), 0 0 160px rgba(56,189,248,0.15)",
               }}
             >
-              18
+              21
             </span>
           </motion.div>
           <h2 className="font-display text-[clamp(1.5rem,4.5vw,2.8rem)] font-bold text-white/90">
@@ -169,13 +169,13 @@ export default function EighteenV2() {
           <p className="font-hand text-xl text-white/45">
             tap each card to reveal
           </p>
-          <ProgressRing progress={flippedCount / 18} />
+          <ProgressRing progress={flippedCount / 21} />
         </Reveal>
 
         {/* Card grid */}
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 lg:gap-5">
           {items.map((text, i) => (
-            <div key={i} onClick={() => setFlippedCount((c) => Math.min(18, c + 1))}>
+            <div key={i} onClick={() => setFlippedCount((c) => Math.min(21, c + 1))}>
               <FlipCard index={i} text={text} />
             </div>
           ))}
@@ -183,7 +183,7 @@ export default function EighteenV2() {
 
         {/* Completion message */}
         <AnimatePresence>
-          {flippedCount >= 18 && (
+          {flippedCount >= 21 && (
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -191,7 +191,7 @@ export default function EighteenV2() {
               className="mt-12 text-center"
             >
               <span className="font-hand text-2xl text-white/70">
-                that&apos;s all 18 — and honestly, I could write 18 more. 💛
+                that&apos;s all 21 — and honestly, I could write 21 more. 💛
               </span>
             </motion.div>
           )}
