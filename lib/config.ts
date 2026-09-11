@@ -58,7 +58,7 @@ export const config = {
     "my beautiful soulmate",
     "my forever and always",
     "the absolute love of my life",
-    "18 & deeply loved",
+    "21 & deeply loved",
   ],
 
   /* ------------------------------------------------------------- timeline */
@@ -249,7 +249,7 @@ letter: {
    * Countdown gate configuration. Blocks the site until the target date.
    */
   gate: {
-    targetDate: "2026-09-11T00:00:00", // August 21, 2026 at Midnight
+    targetDate: "2026-09-11T00:00:00", // September 11, 2026 at Midnight
     bypassKey: "yaashiloml",
   },
 
