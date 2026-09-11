@@ -40,7 +40,7 @@ export const config = {
   age: 21,
   /** Used by the countdown + the "days we've been friends" counter */
   birthday: "2005-09-11",
-  friendsSince: "2022-03-18",
+  friendsSince: "2023-08-13",
 
   /* ------------------------------------------------------------ hero copy */
   hero: {

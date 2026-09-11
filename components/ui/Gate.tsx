@@ -33,6 +33,8 @@ export default function Gate({ children }: { children: ReactNode }) {
           <form onSubmit={(e) => {
             e.preventDefault();
             if (password.toLowerCase() === config.gate.bypassKey.toLowerCase()) {
+              window.dispatchEvent(new CustomEvent("UNLOCK_AUDIO"));
+              window.dispatchEvent(new CustomEvent("PLAY_AUDIO"));
               setIsAuthenticated(true);
             } else {
               setError(true);
